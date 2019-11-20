@@ -147,7 +147,6 @@ nav {
   justify-content:flex-start;
   justify-content:space-evenly;
   align-items:baseline;
-  /* border:2px solid red; */
   width:100%;
   margin:2% 20% 0 0;
   font-size: 1.6rem;
@@ -269,12 +268,10 @@ p {
   }
     .main-search{
     align-items: center;
-    border:2px solid blue;
     justify-content: center;
     width:100%;
   }
   .main {
-    border:2px solid red;
     width:95%;
     margin-left:2%;
   }
@@ -285,15 +282,7 @@ p {
   .searchBox{
     width:100%;
   }
-  .images-team img{
-    
-  }
-  p{
-    
-  }
-  .pro {
-    
-  }
+  
   h2 {
   text-align: center;
   margin:5%;
