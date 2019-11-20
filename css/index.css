@@ -176,12 +176,19 @@ html {
     align-items: center;
     margin-top: 40%;
   }
-  a {
-    margin: 10% 0;
+  .nav-bar {
+    border: 2px solid grey;
+    width: 100%;
+    text-align: center;
+    padding: 10%;
+    border-radius: 20px;
   }
   .main-search {
     display: flex;
     align-items: center;
+  }
+  .port {
+    display: none;
   }
   .main {
     display: none;
@@ -239,7 +246,6 @@ nav {
   flex-direction: row;
   justify-content: flex-start;
   justify-content: space-evenly;
-  align-items: baseline;
   width: 100%;
   margin: 2% 20% 0 0;
   font-size: 1.6rem;
@@ -313,7 +319,6 @@ footer {
   justify-content: center;
   align-items: center;
   width: 100%;
-  align-items: baseline;
 }
 .images-team img {
   display: flex;
