@@ -1,0 +1,352 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+html { 
+  background: url(/img/cuttingboard.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+nav {
+  display:flex;
+  flex-direction:row;
+  justify-content:flex-start;
+  justify-content:space-evenly;
+  align-items:baseline;
+  /* border:2px solid red; */
+  width:100%;
+  margin:2% 20% 0 0;
+  font-size: 1.6rem;
+  background-color:rgba(251, 247, 247, .8)
+}
+
+a {
+  text-decoration: none;
+  color: #ca7512;
+}
+a:hover{
+color:#3a3c3f;
+}
+.Hearth-Steel{
+  font-size: 3.5rem;
+  color:#3a3c3f;
+  text-decoration: bold;
+}
+.Hearth-Steel:hover{
+  color:#ca7512;
+}
+.sign-up{
+width: 50%;
+}
+body{
+  font-family: 'Arimo', sans-serif;
+}
+/* The New way to create food .................................*/
+.header{
+  font-size:6rem;
+  color:#3a3c3f;
+  text-decoration: bold;
+}
+.main {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  margin:20% 26% 0 0;
+}
+
+.searchContainer {
+  display: inline-flex;
+  flex: 1 1 300px;
+  position: relative;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-left: 20%;
+  margin-top:2%;
+  width: 20%;
+  height:50%;
+}
+
+.searchIcon {
+  padding: 0.5rem;
+  background: white;
+}
+
+.searchBox {
+  border: 0;
+  padding:2.4px 10px 2.4px 48px;
+  flex: 1;
+}
+
+.search-sign-up {
+  background: #ca7512;
+  border: 0;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0;
+  width:30%;
+}
+
+/* About Us Page ..........................................*/
+
+.about-Us-Section {
+display:flex;
+flex-direction: column;
+align-items: center;
+margin-top:2%;
+}
+h2 {
+font-size:2rem;
+margin: 1% 0;
+color: #3a3c3f;
+}
+footer {
+  display:flex;
+  justify-content: center;
+  width: 100%;
+  align-items:baseline;
+}
+.images-team img{
+  display:flex;
+  justify-content: center;
+  width: 95%;
+  border-radius: 50%;
+}
+.pro {
+  margin:5% 0 4% 0;
+  font-size: 3rem;
+  color:#ca7512;
+}
+p {
+  text-align: center;
+  margin-bottom: 3%;
+  color: #ca7512;
+}
+
+/* Media at 800px...................... */
+@media (max-width:800px){
+  .nav-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  a{
+    margin: 2% 0;
+  }
+    .main-search{
+    align-items: center;
+    border:2px solid blue;
+    justify-content: center;
+    width:100%;
+  }
+  .main {
+    border:2px solid red;
+    width:95%;
+    margin-left:2%;
+  }
+  .searchContainer{
+    margin-top:10%;
+    width:60%;
+  }
+  .searchBox{
+    width:100%;
+  }
+  .images-team img{
+    
+  }
+  p{
+    
+  }
+  .pro {
+    
+  }
+  h2 {
+  text-align: center;
+  margin:5%;
+  }
+  .about-Us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:10% 0;
+  }
+}
+
+@media (max-width:500px){
+.nav-bar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40%;
+}
+a{
+  margin: 10% 0;
+}
+  .main-search{
+  display: flex;
+  align-items: center;
+}
+.main {
+  display:none;
+}
+.searchContainer{
+  margin-top:10%;
+  margin-right:20%;
+}
+.searchBox{
+  width:100%;
+}
+.images-team img{
+  display:none;
+}
+p{
+  display:none;
+}
+.pro {
+  display: none;
+}
+h2 {
+text-align: center;
+margin:5%;
+}
+.about-Us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin:10% 0;
+}
+}
