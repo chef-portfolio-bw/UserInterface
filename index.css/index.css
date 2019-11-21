@@ -186,41 +186,6 @@ body{
   align-items: center;
   margin:20% 26% 0 0;
 }
-
-.searchContainer {
-  display: inline-flex;
-  flex: 1 1 300px;
-  position: relative;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  overflow: hidden;
-  margin-left: 20%;
-  margin-top:2%;
-  width: 20%;
-  height:50%;
-}
-
-.searchIcon {
-  padding: 0.5rem;
-  background: white;
-}
-
-.searchBox {
-  border: 0;
-  padding:2.4px 10px 2.4px 48px;
-  flex: 1;
-}
-
-.search-sign-up {
-  background: #ca7512;
-  border: 0;
-  color: white;
-  padding: 0.5rem;
-  border-radius: 0;
-  width:30%;
-
-}
-
 /* About Us Page ..........................................*/
 
 .about-Us-Section {
@@ -254,46 +219,12 @@ footer {
 p {
   text-align: center;
   margin-bottom: 3%;
-  color: #ca7512;
+  color: #3a3c3f;
 }
-
-/* Media at 800px...................... */
-@media (max-width:800px){
-  .nav-bar{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-  a{
-    margin: 2% 0;
-  }
-    .main-search{
-    align-items: center;
-    justify-content: center;
-    width:100%;
-  }
-  .main {
-    width:95%;
-    margin-left:2%;
-  }
-  .searchContainer{
-    margin-top:10%;
-    width:60%;
-  }
-  .searchBox{
-    width:100%;
-  }
-  
-  h2 {
+h4{
   text-align: center;
-  margin:5%;
-  }
-  .about-Us {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin:10% 0;
-  }
+  margin-bottom: 3%;
+  color: #ca7512;
 }
 
 @media (max-width:500px){
@@ -326,13 +257,6 @@ p {
 .main {
   display:none;
 }
-.searchContainer{
-  margin-top:10%;
-  margin-right:20%;
-}
-.searchBox{
-  width:100%;
-}
 .images-team img{
   display:none;
 }
@@ -340,6 +264,9 @@ p{
   display:none;
 }
 .pro {
+  display: none;
+}
+h4{
   display: none;
 }
 h2 {
